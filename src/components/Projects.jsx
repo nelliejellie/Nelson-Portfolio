@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
 
-import mastrocred from "../assets/mastocred.PNG";
+import mastrocred from "../assets/mastocred.png";
 import rapidnews from "../assets/rapidnewfrontend.jpeg";
 import urlshortener from "../assets/url-shortener.jpg";
 
