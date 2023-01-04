@@ -3,6 +3,7 @@ import ThemeContext from "../context/ThemeContext";
 
 import mastrocred from "../assets/mastocred.jpeg";
 import rapidnews from "../assets/rapidnewfrontend.jpeg";
+import dashboard from "../assets/Dashboard1.png"
 import urlshortener from "../assets/url-shortener.jpg";
 
 const Projects = () => {
@@ -69,19 +70,19 @@ const Projects = () => {
         </div>
         <div className="w-[90%] max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-4">
           <img
-            src={rapidnews}
+            src={dashboard}
             alt="DevHire"
             className="rounded-3xl"
             data-aos="fade-right"
           />
           <div data-aos="fade-left">
-            <h2 className="text-xl md:text-2xl font-medium">Rapid News Api Consumer</h2>
+            <h2 className="text-xl md:text-2xl font-medium">Bridge</h2>
             <p className="leading-loose">
-              A mobile application for authenticating users and consuming rapid new api endpoints
+              A mobile application for inventory management.
             </p>
             <div className="my-4">
               <p>
-                <strong>Tools: </strong>HTML, CSS and Javascript.
+                <strong>Tools: </strong>ReactNative, DotNet.
               </p>
             </div>
             <div className="flex gap-3">
@@ -99,8 +100,8 @@ const Projects = () => {
                 </a>
               </span>
               <span>
-                <a
-                  href="https://drive.google.com/file/d/1MOkb1u-pN1o7bbCMMcAU4IiEKU8267_c/view?usp=share_link"
+                <ahttps
+                  href="https://drive.google.com/file/d/1-8ETWHaMTIDz-p7KJ8epLCYMl8ci6Ful/view?usp=sharing"
                   target="_blank"
                   className={`flex items-center gap-1 text-md font-normal ${
                     lightTheme
@@ -109,7 +110,7 @@ const Projects = () => {
                   } hover:opacity-75 text-xl`}
                 >
                   <ion-icon name="eye"></ion-icon> Download Apk
-                </a>
+                </ahttps>
               </span>
             </div>
           </div>
